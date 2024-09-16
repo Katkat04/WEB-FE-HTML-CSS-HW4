@@ -16,6 +16,7 @@ function Goals(){
             <h1 className=" font-bold text-2xl justify-items-start pl-2">
                 Goals
             </h1>
+            <div className="overflow-x-auto">
             <table className="table-auto w-full text-left rtl:text-right text-gray-800">
                 <thead className="text-xl text-[#f6a019] bg-cyan-950">
                     <tr className="border">
@@ -40,6 +41,7 @@ function Goals(){
                     ))}
                 </tbody>
             </table>
+            </div>
         </section>
     );
 }

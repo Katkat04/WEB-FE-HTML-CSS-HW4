@@ -23,7 +23,7 @@ function Dofa() {
             <h1 className="font-bold text-2xl justify-items-start pl-2">
                 Current diagnosis(SWOT)
             </h1>
-            <div className="grid grid-cols-2 grid-rows-2 gap-5 py-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-2">
                 {cardsInfo.map((card)=>{
                     return(
                         Card(card.type, card.items)

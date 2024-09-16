@@ -1,6 +1,7 @@
 import Introduction from "./introduction";
-import Dofa from "./Dofa"
+import Dofa from "./Dofa";
 import Identity from "./Identity";
+import Goals from "./Goals";
 function Main() {
     return (
         <section className="flex justify-center items-center w-full h-auto bg-white border-b flex-col bg-[#e2f0fb]">
@@ -8,6 +9,7 @@ function Main() {
             <Introduction/>
             <Dofa/>
             <Identity/>
+            <Goals/>
             </>
         </section>
     );

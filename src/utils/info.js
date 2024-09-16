@@ -85,3 +85,10 @@ export const cardsInfo = [
         ]
     },
 ]
+export const goalsInfo= [
+    {"id": 1, "goal": "Sales monthly", "target": 1200, "progress": 400, "compliance": 33},
+    {"id": 2, "goal": "Number of customer monthly", "target": 800, "progress": 380, "compliance": 47.5},
+    {"id": 3, "goal": "Inventory", "target": 2500, "progress": 1000, "compliance": 40},
+    {"id": 4, "goal": "Reduce delivery times in days", "target": 5, "progress": 5, "compliance": 100},
+    {"id": 5, "goal": "Social media followers", "target": 10000, "progress": 3400, "compliance": 34}
+];

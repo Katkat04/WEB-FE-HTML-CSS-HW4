@@ -54,7 +54,7 @@ function Footer() {
         { }
         <DropdownMenu 
           title="Services"
-          options={["Guarantee", "Call Center", "Consultancy"]}
+          options={["Guarantee", "Call Center", "FAQ"]}
         />
       </div>
     </footer>

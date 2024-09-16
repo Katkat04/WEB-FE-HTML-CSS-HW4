@@ -1,12 +1,14 @@
+import Introduction from "./introduction";
+import Dofa from "./Dofa"
+import Identity from "./Identity";
 function Main() {
     return (
-        <section className="flex justify-center items-center w-full h-[80px] bg-white border-b flex-col">
-            <h1 className="text-3xl text-center text-[#00000]">
-            Intruduction
-            </h1>
-            <p className="break-normal">
-            bla bla bl BL bl KDJFNSDFJAKDASDJAB
-            </p>
+        <section className="flex justify-center items-center w-full h-auto bg-white border-b flex-col bg-[#e2f0fb]">
+            <>
+            <Introduction/>
+            <Dofa/>
+            <Identity/>
+            </>
         </section>
     );
 }

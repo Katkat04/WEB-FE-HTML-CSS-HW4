@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className="flex w-full bg-[#F5F5F5] border-b ">
+        <footer className="flex w-full h-auto bg-[#f6a019] bg-cover">
             <div className="flex flex-row gap-8 justify-between w-full p-8">
                 <ul className="flex flex-col cursor-pointer">
                     <li>Our Company</li>

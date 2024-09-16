@@ -1,9 +1,7 @@
 function Header() {
     return (
-        <header className="flex justify-center items-center w-full h-[80px] bg-[#F5F5F5] border-b">
-            <h1 className="text-3xl text-center text-[#00000]">
-            Good Old Electronics Devices
-            </h1>
+        <header className="flex w-full h-auto bg-[#f6a019] justify-center items-center">
+            <img src="/img/h.png" alt="header imagen" className="w-72 h-36 block p-3" />
         </header>
     );
 }
